@@ -10,11 +10,12 @@
   <body>
     <div class="container jumbotron">
         <h1> Base Master</h1>
+        <div class="col-md-12 text-center">
         <form id="calculator">
           <div class="form-group">
             <label for="number">Enter your number here:</label>
             <input type="text" id="number" autofocused required>
-            <label for="base">Drop the Bass:</label>
+            <label for="base">Drop the Base:</label>
             <select id="base" name="base">
               <option value="2">Binary</option>
               <option value="3">Ternary</option>
@@ -28,7 +29,12 @@
               <option value="16">Hexadecimal</option>
             </select>
           </div>
-          <button class = "btn btn-success">Submit</button>
+        </div>
+
+          <div class="col-md-12 center-block">
+            <br>
+            <button class = "btn btn-success center-block">Submit</button>
+          </div>
         </form>
         <div id="result">
           <br>
